@@ -34,14 +34,6 @@
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
             </intent-filter>
         </receiver>
-        <service
-            android:name=".BoundService"
-            android:enabled="true"
-            android:exported="true" >
-        </service>
-        <service android:name=".MyCallScreeningService"
-            android:enabled="true"
-            android:exported="true"/>
     </application>
 
 </manifest>
